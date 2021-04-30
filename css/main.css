@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: none;
+}
+body{
+    overflow:hidden;
+}
+.hipo   {
+    justify-content: center;
+    align-items: center;
+    width: 10vh;
+    height: 12vh;
+    position: absolute;
+    border-radius: 40%;
+}
+.hipo img{
+    max-width:100%;
+}
+
+.bola{
+    border-radius: 50%;
+    border:5px;
+    border-color:black;
+    box-shadow:5px 5px 2px black;
+    border-style:solid;
+    position: absolute;
+}
+#win,#loose{
+    position:absolute;
+    left:43vw;
+    top:10vh;
+    display:none;   
+}
